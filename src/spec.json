@@ -1,0 +1,289 @@
+{
+  "title": "Gestione prenotazioni delle sale",
+  "description": "Prototipo per consultare il calendario settimanale, filtrare le prenotazioni e inserire nuove richieste per sale riunioni.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "calendario-settimanale",
+      "title": "Calendario settimanale",
+      "description": "Panoramica delle prenotazioni delle sale dell'ufficio comunale immaginario Borgo delle Nubi.",
+      "metrics": [
+        {
+          "label": "Prenotazioni della settimana",
+          "value": "18"
+        },
+        {
+          "label": "Sale disponibili oggi",
+          "value": "3"
+        },
+        {
+          "label": "Prossimo spazio libero",
+          "value": "Martedì, 11:00"
+        }
+      ],
+      "columns": [
+        "Data",
+        "Orario",
+        "Sala",
+        "Oggetto",
+        "Richiedente",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì 6",
+          "09:00–10:00",
+          "Lumo",
+          "Pianificazione servizi",
+          "Ufficio Brina",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Lunedì 6",
+          "10:30–12:00",
+          "Vela",
+          "Riunione operativa",
+          "Gruppo Ontano",
+          "8",
+          "Confermata"
+        ],
+        [
+          "Lunedì 6",
+          "14:00–15:00",
+          "Nubi",
+          "Revisione progetti",
+          "Ufficio Salice",
+          "5",
+          "In attesa"
+        ],
+        [
+          "Martedì 7",
+          "09:30–11:00",
+          "Lumo",
+          "Coordinamento attività",
+          "Gruppo Rugiada",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Martedì 7",
+          "11:30–12:30",
+          "Vela",
+          "Aggiornamento procedure",
+          "Ufficio Ginestra",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Martedì 7",
+          "14:00–16:00",
+          "Nubi",
+          "Laboratorio interno",
+          "Gruppo Ametista",
+          "10",
+          "Confermata"
+        ],
+        [
+          "Mercoledì 8",
+          "09:00–10:30",
+          "Vela",
+          "Verifica scadenze",
+          "Ufficio Lichene",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Mercoledì 8",
+          "11:00–12:00",
+          "Nubi",
+          "Incontro di progetto",
+          "Gruppo Faggio",
+          "5",
+          "In attesa"
+        ],
+        [
+          "Mercoledì 8",
+          "14:30–16:00",
+          "Lumo",
+          "Formazione interna",
+          "Ufficio Quarzo",
+          "9",
+          "Confermata"
+        ],
+        [
+          "Giovedì 9",
+          "09:00–10:00",
+          "Nubi",
+          "Riunione di servizio",
+          "Gruppo Cobalto",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Giovedì 9",
+          "10:30–12:00",
+          "Lumo",
+          "Pianificazione turni",
+          "Ufficio Mughetto",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Giovedì 9",
+          "14:00–15:30",
+          "Vela",
+          "Confronto operativo",
+          "Gruppo Fiordaliso",
+          "8",
+          "Annullata"
+        ],
+        [
+          "Venerdì 10",
+          "09:30–11:00",
+          "Lumo",
+          "Revisione attività",
+          "Ufficio Ambra",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Venerdì 10",
+          "11:30–12:30",
+          "Nubi",
+          "Riunione breve",
+          "Gruppo Cedro",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Venerdì 10",
+          "14:00–15:00",
+          "Vela",
+          "Chiusura settimanale",
+          "Ufficio Opale",
+          "7",
+          "In attesa"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-prenotazione",
+      "title": "Nuova prenotazione",
+      "description": "Inserisci una richiesta di utilizzo di una sala e consulta le prenotazioni già registrate.",
+      "metrics": [
+        {
+          "label": "Richieste in attesa",
+          "value": "3"
+        },
+        {
+          "label": "Sale disponibili",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Data",
+        "Orario",
+        "Sala",
+        "Oggetto",
+        "Richiedente",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì 6",
+          "14:00–15:00",
+          "Nubi",
+          "Revisione progetti",
+          "Ufficio Salice",
+          "5",
+          "In attesa"
+        ],
+        [
+          "Mercoledì 8",
+          "11:00–12:00",
+          "Nubi",
+          "Incontro di progetto",
+          "Gruppo Faggio",
+          "5",
+          "In attesa"
+        ],
+        [
+          "Venerdì 10",
+          "14:00–15:00",
+          "Vela",
+          "Chiusura settimanale",
+          "Ufficio Opale",
+          "7",
+          "In attesa"
+        ]
+      ],
+      "form": [
+        "Data",
+        "Orario",
+        "Sala",
+        "Oggetto",
+        "Richiedente",
+        "Partecipanti",
+        "Stato"
+      ]
+    },
+    {
+      "id": "sale-riunioni",
+      "title": "Sale riunioni",
+      "description": "Elenco delle sale prenotabili e delle loro dotazioni principali.",
+      "metrics": [
+        {
+          "label": "Sale attive",
+          "value": "3"
+        },
+        {
+          "label": "Capienza complessiva",
+          "value": "30"
+        }
+      ],
+      "columns": [
+        "Sala",
+        "Edificio",
+        "Piano",
+        "Capienza",
+        "Dotazioni",
+        "Accessibilità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "Palazzo delle Rive",
+          "1",
+          "12",
+          "Schermo, tavolo modulare",
+          "Accessibile",
+          "Disponibile"
+        ],
+        [
+          "Vela",
+          "Casa del Larice",
+          "2",
+          "10",
+          "Schermo, lavagna",
+          "Accessibile",
+          "Disponibile"
+        ],
+        [
+          "Nubi",
+          "Palazzo delle Rive",
+          "3",
+          "8",
+          "Lavagna, tavolo rotondo",
+          "Accessibile",
+          "Disponibile"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
